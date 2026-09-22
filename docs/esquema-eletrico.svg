@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 820" role="img" aria-label="Esquema eletrico ESPHome Rain Sensor">
+  <rect width="1280" height="820" fill="#0f172a"/>
+  <rect x="24" y="24" width="1232" height="772" rx="24" fill="#f8fafc"/>
+
+  <text x="640" y="72" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="700" fill="#0f172a">ESPHome Rain Sensor</text>
+  <text x="640" y="104" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" fill="#475569">Esquema el&#233;trico - 3 fios - ESP32 DevKit 30 pinos + MH-RD</text>
+
+  <rect x="56" y="140" width="180" height="100" rx="16" fill="#fff7ed" stroke="#ea580c" stroke-width="3"/>
+  <text x="146" y="178" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#9a3412" font-weight="700">1. ENERGIA</text>
+  <text x="146" y="206" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#9a3412">Carregador</text>
+  <text x="146" y="228" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#c2410c">USB 5 V  /  1 A</text>
+
+  <rect x="300" y="140" width="300" height="420" rx="20" fill="#1e293b"/>
+  <text x="450" y="178" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#93c5fd" font-weight="700">2. ESP32 30 PINOS</text>
+  <text x="450" y="206" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#f8fafc">DevKit  USB em cima</text>
+  <rect x="330" y="224" width="240" height="44" rx="8" fill="#0ea5e9"/>
+  <text x="450" y="252" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#0f172a">conector USB aqui</text>
+
+  <circle cx="572" cy="320" r="11" fill="#ef4444"/>
+  <text x="548" y="326" text-anchor="end" font-family="Consolas, monospace" font-size="18" fill="#fecaca">3V3</text>
+  <circle cx="572" cy="390" r="11" fill="#e5e7eb"/>
+  <text x="548" y="396" text-anchor="end" font-family="Consolas, monospace" font-size="18" fill="#e5e7eb">GND</text>
+  <circle cx="572" cy="480" r="11" fill="#22c55e"/>
+  <text x="548" y="478" text-anchor="end" font-family="Consolas, monospace" font-size="18" fill="#86efac">VP</text>
+  <text x="548" y="500" text-anchor="end" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#94a3b8">GPIO36  2o pino E</text>
+
+  <text x="450" y="540" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#64748b">Nao use VIN nem 5V no sensor</text>
+
+  <rect x="720" y="180" width="240" height="340" rx="20" fill="#1d4ed8"/>
+  <text x="840" y="218" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#bfdbfe" font-weight="700">3. MODULO MH-RD</text>
+  <text x="840" y="246" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" fill="#ffffff">LM393  azul</text>
+
+  <circle cx="736" cy="320" r="11" fill="#ef4444"/>
+  <text x="758" y="326" font-family="Consolas, monospace" font-size="18" fill="#fecaca">VCC</text>
+  <circle cx="736" cy="390" r="11" fill="#e5e7eb"/>
+  <text x="758" y="396" font-family="Consolas, monospace" font-size="18" fill="#e5e7eb">GND</text>
+  <circle cx="736" cy="480" r="11" fill="#22c55e"/>
+  <text x="758" y="486" font-family="Consolas, monospace" font-size="18" fill="#86efac">AO</text>
+
+  <text x="840" y="430" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#fde68a">DO  -  nao ligue</text>
+
+  <rect x="1020" y="200" width="200" height="300" rx="16" fill="#fffbeb" stroke="#b45309" stroke-width="3"/>
+  <text x="1120" y="236" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#92400e" font-weight="700">4. PLACA</text>
+  <text x="1120" y="262" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#78350f">trilhas</text>
+  <path d="M1048 290 h144 M1048 322 h144 M1048 354 h144 M1048 386 h144 M1048 418 h144 M1048 450 h144" stroke="#b45309" stroke-width="6" fill="none"/>
+  <text x="1120" y="482" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#a16207">cobre para o ceu</text>
+
+  <path d="M236 190 C268 190, 268 250, 300 250" fill="none" stroke="#334155" stroke-width="6"/>
+  <path d="M583 320 H725" fill="none" stroke="#ef4444" stroke-width="8"/>
+  <path d="M583 390 H725" fill="none" stroke="#111827" stroke-width="8"/>
+  <path d="M583 480 H725" fill="none" stroke="#22c55e" stroke-width="8"/>
+  <path d="M960 360 C990 360, 990 360, 1020 360" fill="none" stroke="#78716c" stroke-width="5"/>
+  <path d="M960 400 C990 430, 990 430, 1020 430" fill="none" stroke="#78716c" stroke-width="5"/>
+
+  <text x="654" y="308" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#b91c1c">vermelho</text>
+  <text x="654" y="378" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#111827">preto</text>
+  <text x="654" y="468" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#15803d">verde</text>
+
+  <rect x="56" y="590" width="1168" height="180" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="80" y="628" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" fill="#0f172a">Por escrito</text>
+  <text x="80" y="662" font-family="Consolas, monospace" font-size="16" fill="#0f172a">Carregador USB 5V  -&gt;  USB do ESP32</text>
+  <text x="80" y="692" font-family="Consolas, monospace" font-size="16" fill="#b91c1c">ESP32 3V3  -&gt;  MH-RD VCC     (nunca 5V, nunca no pino VP)</text>
+  <text x="80" y="722" font-family="Consolas, monospace" font-size="16" fill="#111827">ESP32 GND  -&gt;  MH-RD GND</text>
+  <text x="80" y="752" font-family="Consolas, monospace" font-size="16" fill="#15803d">ESP32 VP   -&gt;  MH-RD AO      (GPIO36, abaixo do EN, lado esquerdo)</text>
+</svg>
